@@ -22,7 +22,7 @@ git clone https://github.com/wortheywebdev/modern-folklore.git
 ~~~
 2. Navigate to the project directory:
 ~~~
-cd talent-planner
+cd modern-folklore
 ~~~
 3. Open the "index.html" file in your preferred browser
 
