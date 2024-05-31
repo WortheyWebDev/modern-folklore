@@ -15,6 +15,17 @@ The site also contains a hidden secret!
 - **Application Programming Interface:** Utilizes a geolocation API as part of the project's requirements.
 - **Transition Animations:** Content animations to give a ghostly effect.
 
+## Installation
+1. Clone the repository:
+~~~
+git clone https://github.com/wortheywebdev/modern-folklore.git
+~~~
+2. Navigate to the project directory:
+~~~
+cd talent-planner
+~~~
+3. Open the "index.html" file in your preferred browser
+
 ## Screenshots
 
 ### Homepage
