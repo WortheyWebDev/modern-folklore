@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Modern Folklore is a collection of contemporary urban legends.">
+	<meta name="keywords" content="folklore, urban legends, scary, creepy">
+	<meta name="author" content="Ryan Worthey">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Puzzle - Modern Folklore</title>
+
+	<link rel="stylesheet" type="text/css" href="WortheyCSS.css">
+	<script src="WortheyJS.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div>
+
+		<img src="logo2.png" alt="Website logo depicting a stylized skull and 
+			flowers with the words, 'Modern Folklore'." width="250" height="125" id="logo">
+
+		<nav>
+			<a id="home" href="index.html">HOME</a>
+			<div class="dropdown">
+				<a id="entities" href="entities.html">ENTITIES</a>
+				<div class="dropdown-content">
+					<a href="look-up.html">"Look Up"</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a id="places" href="places.html">PLACES</a>
+				<div class="dropdown-content">
+					<a href="munecas.html">Isla de las Muñecas</a>
+				</div>
+			</div>
+			<a id="subscribe" href="subscribe.html">SUBSCRIBE</a>
+		</nav>
+
+		<div id="contentborder">
+
+			<main>
+
+				<section>
+
+					<div id="maincontent">
+
+						<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+						<div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+						<img id="drag3" src="images/puzzle-part-3.jpg"
+							alt="An image fragment that makes up a picture of two ghosts when combined with other fragments"
+							draggable="true" ondragstart="drag(event)" width="130" height="130">
+						<img id="drag6" src="images/puzzle-part-6.jpg"
+							alt="An image fragment that makes up a picture of two ghosts when combined with other fragments"
+							draggable="true" ondragstart="drag(event)" width="130" height="130">
+						<img id="drag4" src="images/puzzle-part-4.jpg"
+							alt="An image fragment that makes up a picture of two ghosts when combined with other fragments"
+							draggable="true" ondragstart="drag(event)" width="130" height="130">
+						<img id="drag2" src="images/puzzle-part-2.jpg"
+							alt="An image fragment that makes up a picture of two ghosts when combined with other fragments"
+							draggable="true" ondragstart="drag(event)" width="130" height="130">
+						<img id="drag5" src="images/puzzle-part-5.jpg"
+							alt="An image fragment that makes up a picture of two ghosts when combined with other fragments"
+							draggable="true" ondragstart="drag(event)" width="130" height="130">
+						<img id="drag1" src="images/puzzle-part-1.jpg"
+							alt="An image fragment that makes up a picture of two ghosts when combined with other fragments"
+							draggable="true" ondragstart="drag(event)" width="130" height="130">
+
+						<br>
+						<br>
+						<br>
+						<br>
+
+						<p id="geoloc"></p>
+
+					</div>
+
+				</section>
+
+			</main>
+
+		</div>
+
+		<footer>
+
+			<script>
+
+				var x = document.getElementById("geoloc");
+
+				function getLocation() {
+					if (navigator.geolocation) {
+						navigator.geolocation.getCurrentPosition(showPosition);
+					} else {
+						x.innerHTML = "Geolocation is not supported by this browser.";
+					}
+				}
+
+				function showPosition(position) {
+					x.innerHTML = "Latitude: " + position.coords.latitude +
+						"<br>Longitude: " + position.coords.longitude;
+				}
+
+			</script>
+
+			<br>
+
+			<button onclick="getLocation()">Get Geolocation</button>
+
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

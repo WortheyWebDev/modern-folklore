@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Modern Folklore is a collection of contemporary urban legends.">
+	<meta name="keywords" content="folklore, urban legends, scary, creepy">
+	<meta name="author" content="Ryan Worthey">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Subscribe - Modern Folklore</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div>
+
+		<img src="images/modern-folklore-logo.png" alt="Website logo depicting a stylized skull and 
+			flowers with the words, 'Modern Folklore'." width="250" height="125" id="logo">
+
+		<nav>
+			<a id="home" href="index.html">HOME</a>
+			<div class="dropdown">
+				<a id="entities" href="entities.html">ENTITIES</a>
+				<div class="dropdown-content">
+					<a href="look-up.html">"Look Up"</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a id="places" href="places.html">PLACES</a>
+				<div class="dropdown-content">
+					<a href="munecas.html">Isla de las Muñecas</a>
+				</div>
+			</div>
+			<a id="subscribe" href="subscribe.html">SUBSCRIBE</a>
+		</nav>
+
+		<div id="contentborder">
+
+			<main>
+
+				<section>
+
+					<div id="maincontent">
+
+						<h2>Subscribe to Our Newsletter</h2>
+
+						<div id="formformat">
+
+							<form>
+
+								<label for="name">Name: </label>
+								<input autofocus type="text" id="name" name="name" required pattern="[A-Za-z]+"
+									title="Please enter only letters."><br><br>
+
+								<label for="email">Email: </label>
+								<input type="email" id="email" name="email" required><br><br>
+
+								<label for="birthday">Birthday: </label>
+								<input type="date" id="birthday" name="birthday" required min="1910-01-01"
+									max="2022-01-01"><br><br>
+
+								<label for="country">Country: </label>
+								<input list="countries" id="country" name="country" required
+									pattern="^(United States|Spain|England|Japan|Other)$"
+									title="Please enter or select an option.">
+								<datalist id="countries">
+									<option value="United States">
+									<option value="Spain">
+									<option value="England">
+									<option value="Japan">
+									<option value="Other">
+								</datalist><br><br>
+
+								<label for="favcolor">Favorite Color: </label>
+								<input type="color" id="favcolor" name="favcolor"><br><br>
+
+								<label for="traffic">How'd you find us? </label>
+								<select name="traffic" id="traffic" required>
+									<option hidden disabled selected value> -- Select Item -- </option>
+									<option value="onlinead">Online ad</option>
+									<option value="wordofmouth">Word of mouth</option>
+									<option value="I'mtheprofessor">I'm the professor</option>
+								</select><br><br>
+
+								Favorite Topics:<br>
+								<label><input type="checkbox" id="cryptids" name="cryptids"
+										value="Cryptids">Cryptids</label>
+								<label><input type="checkbox" id="hauntings" name="hauntings"
+										value="Hauntings">Hauntings</label>
+								<label><input type="checkbox" id="curses" name="curses" value="Curses">Curses</label>
+								<br><br>
+
+								<label for="rating">How would you rate this site?</label><br>
+								Excellent <input type="range" id="rating" name="rating" min="0" max="10"> Excellent(er)
+								<br><br>
+
+								<label for="comments">Have an urban legend to share (optional)?</label>
+								<textarea rows="3" id="comments" name="comments" cols="30"></textarea>
+								<br>
+
+								<div id="buttons">
+
+									<input type="submit">
+									<input type="reset">
+
+								</div>
+
+							</form>
+
+						</div>
+
+					</div>
+
+				</section>
+
+			</main>
+
+		</div>
+
+		<footer>
+
+			<script>
+
+				document.write('<p id="footerText">' + randomQuote() + '</p>');
+
+			</script>
+
+			<a href="Puzzle.html"><img id="miniSkull" src="images/footer-skull.png"
+					alt="A stylized skull with flourishes on either side." width="97" height="32"></a>
+
+		</footer>
+
+	</div>
+
+</body>
+
+</html>

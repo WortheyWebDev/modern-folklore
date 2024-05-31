@@ -1,0 +1,291 @@
+#break {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding: 37px;
+}
+
+.divider {
+	display: block;
+	height: 3px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75px;
+}
+
+h2 {
+	color: white;
+	font-family: 'Cinzel Decorative', cursive;
+	text-align: center;
+	text-shadow: 2px 5px 5px rgba(255, 255, 255, 0.3);
+}
+
+nav {
+	background-image: linear-gradient(to bottom right, #eccf42, white, #fff08d);
+	border-radius: 40px 40px 0px 0px;
+	margin: auto;
+	padding: 6px;
+	text-align: center;
+	width: 448px;
+}
+
+nav a {
+	color: #00100e;
+	font-family: 'Futura';
+	padding: 8px 15px;
+	text-decoration: none;
+}
+
+a {
+	color: lightblue;
+	text-decoration: none;
+}
+
+#home {
+	border-radius: 10px 10px 0px 0px;
+	padding-top: 0px;
+}
+
+#home:hover {
+	background-image: linear-gradient(to bottom, red, darkred);
+	box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-bottom: 6.5px;
+	padding-top: 8px;
+	transition-duration: 0.3s;
+}
+
+#entities {
+	border-radius: 10px 10px 0px 0px;
+	padding-top: 0px;
+}
+
+#entities:hover {
+	background-image: linear-gradient(to bottom, green, darkgreen);
+	box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-bottom: 6.5px;
+	padding-top: 8px;
+	transition-duration: 0.3s;
+}
+
+#places {
+	border-radius: 10px 10px 0px 0px;
+	padding-top: 0px;
+}
+
+#places:hover {
+	background-image: linear-gradient(to bottom, blue, darkblue);
+	box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-bottom: 6.5px;
+	padding-top: 8px;
+	transition-duration: 0.3s;
+}
+
+#subscribe {
+	border-radius: 10px 10px 0px 0px;
+	padding-top: 0px;
+}
+
+#subscribe:hover {
+	background-image: linear-gradient(to bottom, gray, black);
+	box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-bottom: 6.5px;
+	padding-top: 8px;
+	transition-duration: 0.3s;
+}
+
+body {
+	-moz-background-size: cover;
+	-webkit-background-size: cover;
+	background: url("images/castleton-green-body-background.jpg") no-repeat center center fixed;
+	background-color: black;
+	background-size: cover;
+}
+
+p {
+	color: silver;
+	font-family: Garamond;
+	font-size: 16px;
+	text-align: justify;
+}
+
+.entryImage {
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	padding: 17px;
+}
+
+#contentborder {
+	background-color: #00100e;
+	border: 25px solid #B88846;
+	border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23fff08d' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23fff08d'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;
+	height: 540px;
+	margin: auto;
+	padding: 0px;
+	width: 410px;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+#homepage {
+	animation: fadeInAnimation ease 4s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+#maincontent {
+	animation: fadeInAnimation ease 4s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#miniSkull:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+#footerText {
+	color: gray;
+	font-size: 15px;
+	font-style: italic;
+}
+
+#formformat {
+	color: silver;
+	font-family: Garamond;
+	font-size: 16px;
+	padding-left: 80px;
+	padding-right: 40px;
+}
+
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6 {
+	border: 1px dashed gray;
+	display: inline-block;
+	height: 130px;
+	width: 130px;
+}
+
+#buttons {
+	display: block;
+	padding-left: 66px;
+	padding-top: 14px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	display: inline-block;
+	position: relative;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	background-color: #f9f9f9;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	display: none;
+	min-width: 160px;
+	position: absolute;
+	transform: translateY(21%);
+	z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	display: block;
+	padding: 5px 16px;
+	text-align: left;
+	text-decoration: none;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+	background-color: inherit;
+}
