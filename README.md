@@ -13,6 +13,7 @@ The site also contains a hidden secret!
 - **Content-Rich Pages:** Information on various folklore and urban legends presented in brief but engaging stories.   
 - **Accessible Navigation:** Easy-to-use menu and links for smooth browsing.  
 - **Application Programming Interface:** Utilizes a geolocation API as part of the project's requirements.
+- **Transition Animations:** Content animations to give a ghostly effect.
 
 ---
 
