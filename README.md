@@ -15,6 +15,19 @@ The site also contains a hidden secret!
 - **Application Programming Interface:** Utilizes a geolocation API as part of the project's requirements.
 - **Transition Animations:** Content animations to give a ghostly effect.
 
+## Screenshots
+
+### Homepage
+![Homepage](https://raw.githubusercontent.com/WortheyWebDev/modern-folklore/main/screenshots/modern-folklore-home.png)
+
+### Story: "Look Up"
+![Look Up](https://raw.githubusercontent.com/WortheyWebDev/modern-folklore/main/screenshots/modern-folklore-look-up.png)
+
+### Places Page
+![Places](https://raw.githubusercontent.com/WortheyWebDev/modern-folklore/main/screenshots/modern-folklore-places.png)
+
+### Subscribe Page
+![Subscribe](https://raw.githubusercontent.com/WortheyWebDev/modern-folklore/main/screenshots/modern-folklore-subscribe.png)
 ---
 
 Thank you for taking a look at my design! 
